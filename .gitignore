@@ -1,0 +1,64 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ======================
+# Conda / Virtual Env
+# ======================
+.conda/
+envs/
+.venv/
+venv/
+
+# ======================
+# Jupyter Notebook
+# ======================
+.ipynb_checkpoints/
+*.ipynb
+
+# ======================
+# Environment Variables (NHẠY CẢM - KHÔNG PUSH)
+# ======================
+.env
+*.env
+
+# ======================
+# Database / Data files
+# ======================
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.parquet
+*.json
+data/raw/
+data/processed/
+
+# ======================
+# Airflow
+# ======================
+airflow.db
+airflow.cfg
+logs/
+standalone_admin_password.txt
+
+# ======================
+# IDE
+# ======================
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
